@@ -8,7 +8,7 @@
 #                                                       #
 #########################################################
 
-functio restart()
+function restart()
 {
 provisioner=`pgrep -lf provisioner | head -n1 | cut -d' ' -f1`
 notification=`pgrep -lf notification | head -n1 | cut -d' ' -f1`
